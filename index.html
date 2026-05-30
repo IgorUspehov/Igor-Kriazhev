@@ -7,6 +7,8 @@
   <style>
     body{font-family:Arial,sans-serif;background:#0f172a;color:#e5e7eb;margin:0;line-height:1.6}
     .wrap{max-width:1050px;margin:0 auto;padding:60px 24px}
+    .hero{display:flex;flex-wrap:wrap;gap:32px;align-items:center;margin-bottom:40px}
+    .photo{width:220px;height:220px;object-fit:cover;border-radius:50%;border:4px solid #334155}
     h1{font-size:46px;margin:0 0 10px}
     h2{margin-top:40px}
     .lead{font-size:22px;color:#cbd5e1}
@@ -19,13 +21,14 @@
 </head>
 <body>
   <main class="wrap">
-    <h1>Ihor Kryazhev</h1>
-    <p class="lead">AI Automation & Systems Integration</p>
-
-    <p>
-      I assemble working systems from AI-generated code, Linux tooling, browser automation,
-      Android/ADB workflows, GitHub Pages, Python, Bash and modern LLMs.
-    </p>
+    <section class="hero">
+      <img class="photo" src="assets/profile.png" alt="Ihor Kryazhev">
+      <div>
+        <h1>Ihor Kryazhev</h1>
+        <p class="lead">AI Automation & Systems Integration</p>
+        <p>I assemble working systems from AI-generated code, Linux tooling, browser automation, Android/ADB workflows, GitHub Pages, Python, Bash and modern LLMs.</p>
+      </div>
+    </section>
 
     <div>
       <span class="tag">AI-assisted development</span>
@@ -40,59 +43,18 @@
     <h2>Projects</h2>
 
     <section class="grid">
-      <div class="card">
-        <h3>UGC Portfolio</h3>
-        <p>Portfolio page for AI-assisted UGC, content and automation positioning.</p>
-        <a href="https://igoruspehov.github.io/ugc-portfolio/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>Playback Client</h3>
-        <p>Async media playback and CDN testing prototype.</p>
-        <a href="https://igoruspehov.github.io/playback-client/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>RealPrint</h3>
-        <p>Browser fingerprinting and profile simulation research project.</p>
-        <a href="https://igoruspehov.github.io/RealPrint/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>ADB TV Manager</h3>
-        <p>Android TV / ADB orchestration and device management tooling.</p>
-        <a href="https://igoruspehov.github.io/adb-tv-manager/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>YouTube Controller</h3>
-        <p>Browser and media control prototype.</p>
-        <a href="https://igoruspehov.github.io/youtube-controller/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>German Tax Calculator</h3>
-        <p>Simple public web calculator prototype.</p>
-        <a href="https://igoruspehov.github.io/german-tax-calculator/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>Polymer LLM CLI</h3>
-        <p>LLM-assisted command-line concept for technical workflows.</p>
-        <a href="https://igoruspehov.github.io/polymer-llm-cli/">Open project</a>
-      </div>
-
-      <div class="card">
-        <h3>Homestream</h3>
-        <p>Home media and streaming automation prototype.</p>
-        <a href="https://igoruspehov.github.io/homestream/">Open project</a>
-      </div>
+      <div class="card"><h3>UGC Portfolio</h3><p>Portfolio page for AI-assisted UGC, content and automation positioning.</p><a href="https://igoruspehov.github.io/ugc-portfolio/">Open project</a></div>
+      <div class="card"><h3>Playback Client</h3><p>Async media playback and CDN testing prototype.</p><a href="https://igoruspehov.github.io/playback-client/">Open project</a></div>
+      <div class="card"><h3>RealPrint</h3><p>Browser fingerprinting and profile simulation research project.</p><a href="https://igoruspehov.github.io/RealPrint/">Open project</a></div>
+      <div class="card"><h3>ADB TV Manager</h3><p>Android TV / ADB orchestration and device management tooling.</p><a href="https://igoruspehov.github.io/adb-tv-manager/">Open project</a></div>
+      <div class="card"><h3>YouTube Controller</h3><p>Browser and media control prototype.</p><a href="https://igoruspehov.github.io/youtube-controller/">Open project</a></div>
+      <div class="card"><h3>German Tax Calculator</h3><p>Simple public web calculator prototype.</p><a href="https://igoruspehov.github.io/german-tax-calculator/">Open project</a></div>
+      <div class="card"><h3>Polymer LLM CLI</h3><p>LLM-assisted command-line concept for technical workflows.</p><a href="https://igoruspehov.github.io/polymer-llm-cli/">Open project</a></div>
+      <div class="card"><h3>Homestream</h3><p>Home media and streaming automation prototype.</p><a href="https://igoruspehov.github.io/homestream/">Open project</a></div>
     </section>
 
     <h2>GitHub</h2>
-    <p>
-      <a href="https://github.com/IgorUspehov">github.com/IgorUspehov</a>
-    </p>
+    <p><a href="https://github.com/IgorUspehov">github.com/IgorUspehov</a></p>
   </main>
 </body>
 </html>
